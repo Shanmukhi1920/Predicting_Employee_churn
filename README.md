@@ -8,7 +8,7 @@
 
 **Used ML Algorithm**: Decision Trees - Easy to interpret and understand the factors driving the employees to leave the company.
 
-- Performed Hyperparameter Tuning, GridSearch and Cross-validation along with handling the class imbalances found that the best parameters for the model are: Max_depth as 5 and Min. sample in leaf as 50.
+- Performed Hyperparameter Tuning with GridSearchCV along with handling the class imbalances and found that the best parameters for the model are: Max_depth as 5 and Min. samples in leaf as 50.
 
 - Later Indentified the features impacting Target(Churn) where Satisfaction proves to have most impact on Churn. They are: 'satisfaction', 'evaluation', 'average_montly_hours', 'time_spend_company'.
 
